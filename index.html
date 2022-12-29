@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <img src="./assets/logo.png" alt="saylani logo" width="250px">
+        </div>
+        <div class="cemter">
+            <h1 class="top-heading">Course Registration Form</h1>
+            <p class="a-b-c">Services - Education - Registration</p>
+        </div>
+        <table style="margin-top: 26px;">
+            <tbody>
+                <tr>
+                    <td><a class="green" href="index.html">New Application</a></td>
+                    <td class="dark"><a class="blue" href="download_id_card.html">Download ID Card</a></td>
+                    <td class="dark"><a class="blue" href="result.html">Results</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <div class="mid">
+            <form action="">
+                <div class="top-lain">
+                    <span>
+                        <label class="blue" id="lepht">Select city</label><label class="blue" id="right-1">Select
+                            course</label><br />
+                        <select class="selemtion-box">
+                            <option value="#" selected disabled>Select city</option>
+                            <option value="#">Faisalabad</option>
+                            <option value="#">Hyderabad</option>
+                            <option value="#">All Pakistan (Online)</option>
+                        </select>
+                        <select class="selemtion-box-right">
+                            <option value="#" selected disabled>Select course</option>
+                            <option value="#">Cisco Certified Networking Professional</option>
+                            <option value="#">Graphic Designing</option>
+                            <option value="#">Video Animation</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="lain">
+                    <span>
+                        <label for="" class="blue" id="lepht">Full name</label><label for="" class="blue"
+                            id="right-2">Fathername</label><br />
+                        <input class="selemtion" type="text" placeholder="Full name">
+                        <input class="selemtion-right" type="text" placeholder="Father name">
+                    </span>
+                </div>
+                <div class="lain">
+                    <span>
+                        <label for="" class="blue" id="lepht">Email</label><label for="" class="blue"
+                            id="right-3">Phone</label><br />
+                        <input class="selemtion" type="text" placeholder="Email">
+                        <input class="selemtion-right" type="number" placeholder="Phone">
+                    </span>
+                </div>
+                <div class="lain">
+                    <span>
+                        <label for="" class="blue" id="lepht">CNIC</label><label for="" class="blue"
+                            id="right-4">Father&#39;s
+                            CNIC(optional)</label><br />
+                        <input class="selemtion" type="number" placeholder="CNIC">
+                        <input class="selemtion-right" type="number" placeholder="Father&#39;s CNIC (optional)">
+                    </span>
+                </div>
+                <div class="lain">
+                    <span>
+                        <label for="" class="blue" id="lepht">Date of birth</label><label class="blue" for=""
+                            id="right-5">Selectgender</label><br />
+                        <input class="selemtion-box" type="date" placeholder="Date of birth">
+                        <select class="selemtion-box-right">
+                            <option value="#" selected disabled class="blue">Select gender</option>
+                            <option value="#">Male</option>
+                            <option value="#">Female</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="lain">
+                    <label for="" class="blue" id="bottom-lepht">Address<br />
+                        <input class="full-box" type="text" placeholder="Address">
+                    </label>
+                </div>
+                <div class="lain">
+                    <label for="" class="blue" id="bottom-lepht">Last qualification<br />
+                        <select class="full-box">
+                            <option value="#" selected disabled>Last qualification</option>
+                            <option value="#">Grades 5-8</option>
+                            <option value="#">Matric</option>
+                            <option value="#">Intermediate</option>
+                            <option value="#">Undergraduate</option>
+                            <option value="#">Graduate</option>
+                            <option value="#">Masters</option>
+                            <option value="#">PHD</option>
+                            <option value="#">Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="lain">
+                    <label for="" class="blue" id="bottom-lepht">Do you have a Laptop?<br />
+                        <select class="full-box">
+                            <option value="#" selected disabled>Do you have a Laptop?</option>
+                            <option value="#">Yes</option>
+                            <option value="#">No</option>
+                        </select>
+                    </label>
+                </div>
+                <span style="position: relative; top: 25px;" class="pic-txt">Picture</span>
+                <div class="pic-content">
+                    <input class="custom-btn" type="file" accept="image/*">
+                    <ul>
+                        <li>With white or blue background</li>
+                        <li>File size must be less than 1MB</li>
+                        <li>File type: jpg, jpeg, png</li>
+                        <li>Upload your recent passport size picture</li>
+                        <li>Your Face should be clearly visible without any Glasses</li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <hr />
+        <div class="bottom">
+            <ol>
+                <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best
+                    of my knowledge. Further, I will abide by all the established and future regulations and policies of
+                    SWIT</li>
+                <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in
+                    any other activity, political or ethical, but learning during my stay in the program.</li>
+                <li>Defiance will render my admission canceled at any point in time.</li>
+                <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                <li>It's mandatory for female students to wear abaya/hijab in the class.</li>
+            </ol>
+        </div>
+        <button class="submit-btn">SUBMIT</button>
+    </div>
+</body>
+
+</html>

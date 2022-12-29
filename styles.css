@@ -1,0 +1,199 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.top{
+    margin: auto;
+    width: 250px;
+}
+img{
+    margin-top: 19px;
+}
+.cemter{
+    text-align: center;
+}
+.top-heading{
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+}
+.a-b-c{
+    margin-top: -6px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+table{
+    margin: auto;
+    margin-bottom: -10px;
+}
+td{
+    font-size: 14px;
+    padding: 8px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 35px;
+    border-bottom: none;
+}
+.dark{
+    background-color: rgba(207, 207, 207, 0.1);
+}
+a{
+    text-decoration: none;
+}
+hr{
+    border-top: rgba(0, 0, 0, 0.2);
+}
+.pic-content{
+    display: flex;
+    text-align: left;
+}
+.pic-txt{
+    display: flex;
+    color: #0D6DB7;
+}
+ul li{
+    list-style: none;
+    margin-left: -120px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+}
+ol li{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    line-height: 170%;
+    justify-content: left;
+}
+.custom-btn, .pic-txt{
+    margin-left: 74px;
+    margin-top: 25px;
+}
+.bottom{
+    text-align: left;
+}
+.submit-btn{
+    padding-top: 9px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 853px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0D6DB7;
+    color: white;
+    font-size: 14px;
+}
+.selemtion{
+    width: 413px;
+    height: 54px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+}
+.selemtion-box{
+    width: 413px;
+    height: 54px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+}
+.full-box{
+    width: 853px;
+    height: 54px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+}
+.green{
+    color: #8dc63f;
+}
+.blue{
+    color: #0D6DB7;
+}
+.mid{
+    margin-top: 35px;
+    display: flex;
+}
+.top-lain{
+    margin: 0 70px;
+}
+.lain{
+    margin: 21px 70px;
+}
+input{
+    padding: 15px;
+    color:rgba(0, 0, 0, 0.6);
+}
+select{
+    padding: 15px;
+    color:rgba(0, 0, 0, 0.6);
+}
+#lepht{
+    margin-left: 2px;
+}
+.selemtion-box-right{
+    width: 413px;
+    height: 54px;
+    margin-left: 20px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+}
+.selemtion-right{
+    width: 413px;
+    height: 54px;
+    margin-left: 20px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+}
+#bottom-lepht{
+    margin-left: 2px;
+}
+#right-1{
+    margin-left: 356px;
+}
+#right-2{
+    margin-left: 360px;
+}
+#right-3{
+    margin-left: 394px;
+}
+#right-4{
+    margin-left: 399px;
+}
+#right-5{
+    margin-left: 339px;
+}
+
+/*--------------------------ID CARD--------------------------*/
+
+.down-id{
+    width: 500px;
+    margin: auto;
+}
+#down-id-cnic{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.down-id-input{
+    box-sizing: border-box;
+    width: 500px;
+    height: 54px;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+}
+
+.down-submit{
+    padding-top: 9px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d6db79c;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
